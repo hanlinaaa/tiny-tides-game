@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="ocean" x2="0" y2="1">
+      <stop stop-color="#174c65"/>
+      <stop offset="1" stop-color="#082937"/>
+    </linearGradient>
+    <linearGradient id="fish" x2="0.3" y2="1">
+      <stop stop-color="#ffb47f"/>
+      <stop offset="1" stop-color="#ef785f"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#ocean)"/>
+  <circle cx="114" cy="137" r="16" fill="none" stroke="#91cbd0" stroke-width="6" opacity=".7"/>
+  <circle cx="389" cy="140" r="9" fill="none" stroke="#91cbd0" stroke-width="5" opacity=".45"/>
+  <circle cx="408" cy="364" r="19" fill="none" stroke="#91cbd0" stroke-width="6" opacity=".35"/>
+  <path d="M184 236c-24-28-61-52-84-46-8 3 8 51 24 67-16 17-32 65-24 68 25 6 61-19 85-47z" fill="#ef785f"/>
+  <path d="M230 198c-8-36 13-59 31-61 14-2 35 32 43 59" fill="#f7a273"/>
+  <ellipse cx="273" cy="258" rx="116" ry="88" fill="url(#fish)"/>
+  <path d="M194 289c43 39 111 42 165 8-15 29-48 49-86 49-34 0-63-14-79-57" fill="#ffe2ab" opacity=".8"/>
+  <path d="M236 255c-13 9-21 23-18 42 20-3 34-17 37-31" fill="#d96552"/>
+  <ellipse cx="327" cy="235" rx="23" ry="27" fill="#fff5df"/>
+  <ellipse cx="334" cy="237" rx="10" ry="15" fill="#163c49"/>
+  <circle cx="337" cy="231" r="4" fill="#fff"/>
+  <path d="M364 273q9 5 16-2" fill="none" stroke="#a84c43" stroke-width="5" stroke-linecap="round"/>
+  <path d="M216 202q36-18 65-11" fill="none" stroke="#ffddb2" stroke-width="12" stroke-linecap="round" opacity=".7"/>
+</svg>
