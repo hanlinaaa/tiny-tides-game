@@ -1,13 +1,13 @@
 /* The production build fills these two placeholders. */
 const PRECACHE_PATHS = [
   "./THIRD_PARTY_LICENSES.txt",
+  "./assets/index-BTUCdXxd.js",
   "./assets/index-DK7lAt10.css",
-  "./assets/index-DXo58lGo.js",
   "./icon.svg",
   "./index.html",
   "./manifest.webmanifest"
 ];
-const VERSION = "fd9aab5d55deda07";
+const VERSION = "89b432ae51d25da9";
 const SCOPE = new URL(self.registration.scope);
 const CACHE_PREFIX = `tiny-tides-${encodeURIComponent(SCOPE.pathname)}-`;
 const CACHE_NAME = `${CACHE_PREFIX}${VERSION}`;
